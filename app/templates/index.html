@@ -1,8 +1,119 @@
 <!DOCTYPE html>
 
 <html lang = "en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<title>Mahesh</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mahesh's Resume</title>
+        <script src= "https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg my-10 p-8">
+
+        <!--Header Section-->
+        <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg my-10 p-8">
+
+            <div class="flex flex-col items-center border-b pb-6">
+                <h1 class="text-4xl font-bold text-gray-800">
+                    Mahesh Bhupathiraju
+                    <p class="text-lg text-gray-500 mt-2">
+                    Computer Vision and Backend Engineer</p>
+                </h1>
+
+                <div class="flex space-x-6 mt-4 text-gray-600">
+                    <a href="mailto:test@gmail.com" class= "hover:text-blue-500">Mail</a> 
+                    <a href="https://www.linkedin.com/in/mahesh-varma-bhupathiraju/" class= "hover:tet-blue-500">LinkedIn</a> 
+                    <a href="https://github.com/zingZing1298">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Profile-->
+        <section class= "mt-6 justify-self-auto">
+            <h2 class="text-2xl font-bold text-gray-800 ">Who I am and what I do?</h2>
+            <p class="text-gray-600 mt-2 leading-relaxed text-justify">
+            Backend engineer and computer vision engineer with 3 years of experience developing scalable solutions for process automation and defect defection in manufacturing leveraging object detection and instance segmentation techniques. Experienced in building containerized solutions.
+            </p>
+        </section>
+
+        <!--Technical skills-->
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold text-gray-800">Technical Skills</h2>
+            <div class="grid grid-cols-2 gap-4 mt-4">
+                <div>
+                    <h3 class="font-semibold text-gray-700 underline underline-offset-1 ">Backend and systems development</h3>
+                    <p class="font-semibold text-gray-500">
+                    FastAPI, Flask, ASP.NET, Fortran, Reflective Memory
+                    <div>
+                        <h3 class="font-semibold text-gray-700 underline underline-offset-1">Databases</h3>
+                        <p class="font-semibold text-gray-500">
+                        Mysql, Oracle
+                        </p>
+                    </div> 
+
+                    <div>
+                        <h3 class="font-semibold text-gray-700 underline underline-offset-1">DevOps</h3>
+                        <p class="font-semibold text-gray-500">
+                        Git, Azure DevOps, Azure
+                        </p>
+                    </div> 
+
+                    <div>
+                        <h3 class="font-semibold text-gray-700 underline underline-offset-1">AI tools and Frameworks</h3>
+                        <p class="font-semibold text-gray-500">
+                        GitHub Copilot, Ultralytics(Computer Vision), Langchain
+                        </p>
+                    </div> 
+
+                    <div>
+                        <h3 class="font-semibold text-gray-700 underline underline-offset-1 ">Frontend</h3>
+                        <p class="font-semibold text-gray-500">
+                        HTML, tailwindcss, Javascript
+                        </p>
+                    </div> 
+
+                </div>
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold text-gray-800">Professional Experience</h2>
+            <div class="mt-4 space-y-6">
+                <div>
+                    <h3 class="font-semibold text-gray-700">Software Developer</h3>
+                    <p class="text-sm text-gray-500">ArcelorMittal Dofasco | May 2023- Present</p>
+                    <ul class="list-disc list-inside text-gray-600 mt-2 text-justify">
+                        <li>Developed 4 end to end computer vision systems to detect and prevent defects on hot-rolled steel strips and coils improving incident reporting by 80%.</li>
+                        <li>Transitioned several standalone python applications to Docker-based architures, enchancing deployment efficiency and scalability.</li>
+                        <li>Designed and implemented FastAPI based middleware to process RTSP video streams in real time, and converted video frames into hex strings for efficient data transmission on HTTP and introduced batch processing to improve on-premise server request processing from 200 to 2000 images/minute. </li>
+                        <li>Enhanced operational efficiency reducing downtime by 10% refining legacy Fortran codebases on OpenVMS systems while capturing edge cases and performing unit and integration tests.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold text-gray-800">Education</h2>
+            <div class="mt-4 space-y-6">
+                <h3 class="font-semibold text-gray-700">Master in Engineering - Smart Systems and Technology</h3>
+                <p class="text-sm text-gray-500">McMaster University, Hamilton| September 2022 - September 2024</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 text-justify">
+                    <li>Graduated with a GPA of 3.7/4</li>
+                    <li>Relevant coursework - Computer Vision, Introduction to NLP, Deep Learning, AI/ML on Cloud Platforms, Smart Systems - IoT and Cyberphysical system</li>
+
+                </ul>
+
+                <h3 class="font-semibold text-gray-700">Bachelor of Technology - Electronics and Telecommunication Systems</h3>
+                <p class="text-sm text-gray-500">JNTUH University, Hyderabad | July 2016 - September 2020</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 text-justify">
+                    <li>Graduated with 9.0/10 </li>
+                    <li>Relevant coursework- Operating Systems, Data structures and Algorithm, Computer Networks, IoT and embedded sytems</li>
+                </ul>
+
+            </div>
+
+        </section>
+    </body>
+
