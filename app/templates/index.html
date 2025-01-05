@@ -23,31 +23,25 @@ html{
                     <li><a href="#about" class="text-gray-600 hover:text-blue-500">about me</a></li>
                     <li><a href="#resume" class="text-gray-600 hover:text-blue-500">resume</a></li>
                     <li><a href="#projects" class="text-gray-600 hover:text-blue-500">projects</a></li>
+                    <li><a href="#contact" class ="text-gray-600 hover:text-blue-500">contact</a></li>
 
                 </ul>
             </div>
         </nav>
-
-        <!--Header Section-->
-        <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg my-10 p-8">
-
-            <div class="flex flex-col items-center border-b pb-6">
-                <h1 class="text-4xl font-bold text-gray-800">
-                    Mahesh Bhupathiraju
-                    <p class="text-lg text-gray-500 mt-2">
-                    Computer Vision and Backend Engineer</p>
-                </h1>
-
-                <div class="flex space-x-6 mt-4 text-gray-600">
-                    <a href="mailto:test@gmail.com" class= "hover:text-blue-500">Mail</a> 
-                    <a href="https://www.linkedin.com/in/mahesh-varma-bhupathiraju/" class= "hover:tet-blue-500">LinkedIn</a> 
-                    <a href="https://github.com/zingZing1298">GitHub</a>
-                </div>
+        <!--Hero Section-->
+        <section class="h-screen flex flex-col justify-center items-center ">
+            <div 
+        class="flex-grow-[7] flex justify-center items-center"
+        style="background-image: url('profilePicture.jpg'); background-size: cover; background-position: center;">
+    </div>
+            <div class="flex-grow-[3] flex flex-col justify-center items-center ">
+                <h1 class="text-4xl font-bold text-gray-800 mt-15">Mahesh Bhupathiraju</h1>
+                <p class="text-xl text-gray-600 mt-2">Computer Vision & Backend Engineer</p>
             </div>
-        </div>
+        </section>
 
         <!--Profile-->
-        <section class= "mt-6 justify-self-auto">
+        <section id = "about" class= "mt-6 justify-self-auto">
             <h2 class="text-2xl font-bold text-gray-800 ">Who I am and what I do?</h2>
             <p class="text-gray-600 mt-2 leading-relaxed text-justify">
             Backend engineer and computer vision engineer with 3 years of experience developing scalable solutions for process automation and defect defection in manufacturing leveraging object detection and instance segmentation techniques. Experienced in building containerized solutions.
@@ -55,7 +49,7 @@ html{
         </section>
 
         <!--Technical skills-->
-        <section class="mt-8">
+        <section id = "resume" class="mt-8">
             <h2 class="text-2xl font-bold text-gray-800">Technical Skills</h2>
             <div class="grid grid-cols-2 gap-4 mt-4">
                 <div>
@@ -132,6 +126,14 @@ html{
 
             </div>
 
+        </section>
+
+        <section id="contact" class="justify-center items-center text-blue-800">
+            <div class="flex space-x-6 mt-4 text-gray-600">
+                <a href="mailto:test@gmail.com" class= "hover:text-blue-500">Mail</a> 
+                <a href="https://www.linkedin.com/in/mahesh-varma-bhupathiraju/" class= "hover:tet-blue-500">LinkedIn</a> 
+                <a href="https://github.com/zingZing1298">GitHub</a>
+            </div>
         </section>
     </body>
 
